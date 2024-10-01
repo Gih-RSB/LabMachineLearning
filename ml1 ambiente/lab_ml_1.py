@@ -8,15 +8,15 @@ data_galinha = {
     "tem_bico": [1, 1, 1],
     "risco_extincao": [0, 0, 0],
     "idade": [2, 1, 3],
-    "tipo_racao": [0, 1, 0],
+    "tipo_racao": [3, 1, 0],
 }
 
 data_papagaio = {
     "nome": ["Papagaio que Xinga", "Papagaio de Cabeça Amarela", "Louro José"],
     "tem_bico": [1, 1, 1],
     "risco_extincao": [1, 1, 0],
-    "idade": [5, 3, 4],
-    "tipo_racao": [1, 2, 0],
+    "idade": [3, 3, 1],
+    "tipo_racao": [1, 0, 3],
 }
 
 df_galinha = pd.DataFrame(data_galinha)
